@@ -7,5 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "MIT"
+  "dependencies": {
+    "chart.js": "^3.4.1",
+    "express": "^4.17.1",
+    "got": "^11.8.2",
+    "mongodb": "^3.6.9",
+    "needle": "^2.6.0",
+    "oauth-1.0a": "^2.2.6",
+    "vader-sentiment": "^1.1.3"
+  }
 }

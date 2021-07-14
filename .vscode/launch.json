@@ -1,0 +1,20 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "Launch Program",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${file}",
+      "env": {
+        "CONSUMER_KEY": "OXHAZH8D1IgdxjbQwEWGLMYek",
+        "CONSUMER_SECRET": "oPQJaSRtGbEHSEspMkG7lf4NFTPI4bfx3EAUdhwo38Dij4DyTL",
+        "BEARER_TOKEN": "AAAAAAAAAAAAAAAAAAAAAPOZPwEAAAAAo5cQYRZbDuls8NTt5oDErSIvw8E%3DhF51zOSX3IYtNtxp5UzVfCcNDVrKrkk0t0x8us4J6DqE8hhLLB"
+      }
+    }
+  ]
+}
