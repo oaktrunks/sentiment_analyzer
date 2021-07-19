@@ -2,6 +2,8 @@ import * as GraphController from "./controller/graph_controller.js";
 import * as Constant from "./model/constant.js";
 import * as Element from "./viewpage/element.js";
 
+GraphController.addEventListeners();
+
 window.onload = () => {
   const pathname = window.location.pathname;
   // const href = window.location.href;

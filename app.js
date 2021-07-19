@@ -12,18 +12,8 @@ const client = new MongoClient(uri);
 const token =
   "AAAAAAAAAAAAAAAAAAAAAPOZPwEAAAAAo5cQYRZbDuls8NTt5oDErSIvw8E%3DhF51zOSX3IYtNtxp5UzVfCcNDVrKrkk0t0x8us4J6DqE8hhLLB";
 
-//TODO dev purposes
-async function dropAll() {
-  await Promise.all([
-    await drop(Constant.COLLECTIONS.TRACKERSTATE),
-    await drop(Constant.COLLECTIONS.ANALYSIS),
-  ]);
-}
-
 async function main() {
   await client.connect();
-  // await dropAll()
-  // return;
 
   let rules = [];
   for (key in Constant.TRACKERS) {

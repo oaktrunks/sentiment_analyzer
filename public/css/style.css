@@ -49,3 +49,7 @@ hr {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
+
+#tweetTable_wrapper {
+  margin: 50px;
+}
