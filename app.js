@@ -5,12 +5,11 @@ const { MongoClient } = require("mongodb");
 const needle = require("needle");
 const vader = require("vader-sentiment");
 // TODO set this up to use localhost once app is ready for deployment
-const uri = "mongodb://mongoadmin:MongoAdmin971237123@159.65.166.204:27017";
+const uri = "";
 const client = new MongoClient(uri);
 //TODO process env vars
 // const token = process.env.BEARER_TOKEN;
-const token =
-  "AAAAAAAAAAAAAAAAAAAAAPOZPwEAAAAAo5cQYRZbDuls8NTt5oDErSIvw8E%3DhF51zOSX3IYtNtxp5UzVfCcNDVrKrkk0t0x8us4J6DqE8hhLLB";
+const token = "";
 
 async function main() {
   await client.connect();
